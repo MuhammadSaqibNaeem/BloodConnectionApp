@@ -28,7 +28,10 @@ const WelcomeScreen = ({ navigation }) => {
       </View>
       <View style={styles.buttonView}>
         <View style={styles.buttonSubView}>
-          <PrimaryButton title={"Login"} />
+          <PrimaryButton
+            title={"Login"}
+            onPress={() => navigation.navigate("LoginScreen")}
+          />
         </View>
         <View style={styles.buttonSubView}>
           <PrimaryButton

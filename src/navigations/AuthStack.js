@@ -11,7 +11,7 @@ const Auth = () => {
   return (
     <Stack.Navigator
       screenOptions={{ headerShown: false }}
-      initialRouteName="WelcomeScreen"
+      //  initialRouteName="WelcomeScreen"
     >
       <Stack.Screen
         name="WelcomeScreen"
